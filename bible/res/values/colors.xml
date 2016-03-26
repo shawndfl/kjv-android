@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal">#20FFFFFF</color>
+    <color name="note">#A4A0B0FF</color>
+    <color name="like">#A4FFFFA0</color>
+    <color name="love">#A4A0FFA0</color>
+    <color name="black">#FF000000</color>
+</resources>

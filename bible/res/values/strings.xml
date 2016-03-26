@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BibleKJV</string>
+    <string name="action_about">About</string>
+    <string name="text_hint">Enter text</string>
+    <string name="title_activity_main">BibleKJV</string>
+    <string name="done">Done</string>
+    
+    <!-- Context menus -->
+    <string name="reset_last_read">Reset Chapter</string>
+    <string name="reset_book">Reset Book</string>
+    <string name="copy_verse">Copy Verse</string>
+	
+    <!-- Favorites menus -->
+    <string name="menu_sort">Sort</string>
+    <string name="filter_date">Filter</string>
+    
+	<string name="menu_filter">Filter</string>
+	<string name="menu_filter_note">Notes</string>
+	<string name="menu_filter_like">Like</string>
+	<string name="menu_filter_love">Love</string>
+	<string name="menu_filter_all">All</string>
+	<string name="menu_book_filter">Book</string>
+	<string name="dialog_title">Select Book</string>
+	
+	<!-- Log filter -->
+	<string name="menu_all">All</string>
+	<string name="menu_30_days">&gt; 30 days"</string>
+	<string name="menu_60_days">&gt; 60 days</string>
+	<string name="menu_90_days">&gt; 90 days</string>
+	<string name="menu_6_months">&gt; 6 months</string>
+	<string name="menu_1_year">&gt; 1 year</string>
+	
+	<!-- Dialog -->
+	<string name="dialog_chapter_title">Reset</string>
+	<string name="dialog_chapter_message">Remove bookmark in </string>
+	<string name="dialog_chapter_positive">Yes</string>
+	<string name="dialog_chapter_negative">no</string>
+	
+	<string name="sort_title">Sort By: </string>
+	<string name="filter_title">Filter By: </string>
+	<string name="book_filter_title">Select Book:</string>
+	
+	<string-array name="filters">
+	    <item>All</item>
+	    <item>Notes</item>
+	    <item>Likes</item>
+	    <item>Loves</item>
+	</string-array>
+	
+	<string-array name="sort">
+	    <item>Book</item>
+	    <item>Date Asc</item>
+	    <item>Date Dec</item>
+	</string-array>
+	
+	<string name="search_title">Search</string>
+    <string-array name="books">
+        <item>Genesis</item>
+        <item>Exodus</item>
+        <item>Leviticus</item>
+        <item>Numbers</item>
+        <item>Deuteronomy</item>
+        <item>Joshua</item>
+        <item>Judges</item>
+        <item>Ruth</item>
+        <item>1 Samuel</item>
+        <item>2 Samuel</item>
+        <item>1 Kings</item>
+        <item>2 Kings</item>
+        <item>1 Chronicles</item>
+        <item>2 Chronicles</item>
+        <item>Ezra</item>
+        <item>Nehemiah</item>
+        <item>Esther</item>
+        <item>Job</item>
+        <item>Psalms</item>
+        <item>Proverbs</item>
+        <item>Ecclesiastes</item>
+        <item>Song of Solomon</item>
+        <item>Isaiah</item>
+        <item>Jeremiah</item>
+        <item>Lamentations</item>
+        <item>Ezekiel</item>
+        <item>Daniel</item>
+        <item>Hosea</item>
+        <item>Joel</item>
+        <item>Amos</item>
+        <item>Obadiah</item>
+        <item>Jonah</item>
+        <item>Micah</item>
+        <item>Nahum</item>
+        <item>Habakkuk</item>
+        <item>Zephaniah</item>
+        <item>Haggai</item>
+        <item>Zechariah</item>
+        <item>Malachi</item>
+        <item>Matthew</item>
+        <item>Mark</item>
+        <item>Luke</item>
+        <item>John</item>
+        <item>Acts</item>
+        <item>Romans</item>
+        <item>1 Corinthians</item>
+        <item>2 Corinthians</item>
+        <item>Galatians</item>
+        <item>Ephesians</item>
+        <item>Philippians</item>
+        <item>Colossians</item>
+        <item>1 Thessalonians</item>
+        <item>2 Thessalonians</item>
+        <item>1 Timothy</item>
+        <item>2 Timothy</item>
+        <item>Titus</item>
+        <item>Philemon</item>
+        <item>Hebrews</item>
+        <item>James</item>
+        <item>1 Peter</item>
+        <item>2 Peter</item>
+        <item>1 John</item>
+        <item>2 John</item>
+        <item>3 John</item>
+        <item>Jude</item>
+        <item>Revelation</item>
+    </string-array>
+
+    <string name="title_activity_reader">ReaderActivity</string>
+    <string name="title_activity_select_chapter">Select Chapter</string>
+    <string name="accept_text">Finished Reading?</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="favorite">Favorite</string>
+    <string name="log">Reading Log</string>
+    <string name="finishedReading">Finished Reading Chapter</string>
+    <string name="menu_zoom">zoom</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="removeBookmarks">Removed bookmarks.</string>
+    <string name="loggedRead">Logged chapter as read.</string>
+
+</resources>

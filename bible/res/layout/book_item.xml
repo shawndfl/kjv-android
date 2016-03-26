@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <ImageView
+	    android:id="@+id/imgDone"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight=".5"
+	    android:contentDescription="@string/done"
+	    android:src="@drawable/ic_done_green_24dp" />
+    
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/font_size_header" />
+	
+	<TextView
+	    android:id="@+id/txtPercent"
+	    android:layout_width="@dimen/percentWidth"
+	    android:layout_weight=".5"
+	    android:layout_height="wrap_content"
+	    android:gravity="end"
+	    android:text="100%"
+	    android:textColor="@color/black"
+	    android:textSize="@dimen/font_size_normal" />
+
+</LinearLayout>

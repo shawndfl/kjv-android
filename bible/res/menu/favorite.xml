@@ -1,0 +1,65 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"    
+    tools:context="bible.kjv.com.FavoriteActivity" >
+    <!--<item
+       	android:id="@+id/menu_book_filter"
+       	android:orderInCategory="99"
+       	android:icon="@drawable/ic_filter_list_black_24dp"
+       	android:title="@string/menu_book_filter"
+       	app:showAsAction="ifRoom"        
+       android:menuCategory="container"/>
+     <item android:id="@+id/search"
+          android:title="@string/search_title"
+          android:orderInCategory="50"
+          android:icon="@drawable/ic_search_black_24dp" 
+          android:actionViewClass="android.widget.SearchView"
+          app:showAsAction="ifRoom"
+          />	
+     -->      
+	<item
+       	android:id="@+id/menu_filter"
+       	android:orderInCategory="100"
+       	android:icon="@drawable/ic_filter_list_black_24dp"
+       	android:title="@string/menu_filter"
+       	app:showAsAction="ifRoom"        
+       android:menuCategory="container">
+   	    <menu>
+   	        <group android:checkableBehavior="single" android:menuCategory="container" android:enabled="true">
+	   			<item
+		        	android:id="@+id/menu_filter_all"
+		        	android:orderInCategory="110"
+		        	android:title="@string/menu_filter_all"
+		        	app:showAsAction="ifRoom"        
+	       			android:checked="true"
+	       			android:titleCondensed="@string/menu_filter_all"/>
+	   			<item
+		        	android:id="@+id/menu_filter_note"
+		        	android:orderInCategory="120"
+		        	android:title="@string/menu_filter_note"
+		        	app:showAsAction="ifRoom"
+		        	android:titleCondensed="@string/menu_filter_note"/>
+	   			<item
+		        	android:id="@+id/menu_filter_like"
+		        	android:orderInCategory="130"
+		        	android:title="@string/menu_filter_like"
+		        	app:showAsAction="ifRoom"
+		        	android:titleCondensed="@string/menu_filter_like"/>
+	   			<item
+		        	android:id="@+id/menu_filter_love"
+		        	android:orderInCategory="140"
+		        	android:title="@string/menu_filter_love"
+		        	app:showAsAction="ifRoom"
+		        	android:titleCondensed="@string/menu_filter_love"/>
+   			</group>
+		</menu>
+	</item>   
+	<item
+       android:id="@+id/item_fav_sort"
+       	android:orderInCategory="1"
+       	android:title="@string/sort_title"
+       	android:icon="@drawable/ic_sort_white_48dp"
+       	app:showAsAction="ifRoom"        
+       /> 		    
+
+</menu>

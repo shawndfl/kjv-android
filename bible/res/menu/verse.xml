@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item 
+        android:title="@string/menu_zoom"
+        android:orderInCategory="100"
+       	android:icon="@drawable/ic_format_size_black_24dp"
+       	app:showAsAction="ifRoom"        
+        android:menuCategory="container"
+        >
+	     <menu >  
+	    <group android:id="@+id/zoom" android:checkableBehavior="single">
+	        <item android:id="@+id/menu_zoom_1" android:title="50%"></item>
+	        <item android:id="@+id/menu_zoom_2" android:title="100%"></item>
+	        <item android:id="@+id/menu_zoom_3" android:title="150%"></item>
+	    </group>
+	    </menu>
+    </item>
+    
+
+</menu>

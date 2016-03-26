@@ -1,0 +1,6 @@
+CREATE TABLE android_metadata (locale TEXT);
+CREATE TABLE books (_id INTEGER PRIMARY KEY,id TEXT,name TEXT );
+CREATE TABLE BookLogs (_id INTEGER PRIMARY KEY,bookId TEXT,chapter INTEGER,timeStamp DATETIME );
+CREATE TABLE "Highlight" (_id INTEGER PRIMARY KEY,bookId INTEGER,chapter INTEGER,verse INTEGER,state INTEGER,date DATETIME );
+CREATE TABLE "properties" (id TEXT,value TEXT,timestamp INTEGER);
+CREATE TABLE readstate (bookId INTEGER,chapter INTEGER,readState INTEGER,modify DATETIME);

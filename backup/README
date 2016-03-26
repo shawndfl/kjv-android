@@ -1,0 +1,6 @@
+adb backup -f data.ab -noapk bible.kjv.com
+dd if=data.ab bs=1 skip=24 | openssl zlib -d | tar -xvf -
+
+sqlite3    #command line
+sqliteman  #gui for sqlite
+

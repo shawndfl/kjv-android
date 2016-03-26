@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+	<ImageView
+        android:id="@+id/imgDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:src="@drawable/ic_done_green_24dp" />
+
+    <TextView
+        android:id="@+id/textChapter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:gravity="top|start"
+        android:text="Chapter #"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_header" />
+
+    <TextView
+        android:id="@+id/textLastRead"
+        android:layout_width="@dimen/dateWidth"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:gravity="end"
+        android:text="12-25-2015"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_normal" />
+
+
+</LinearLayout>

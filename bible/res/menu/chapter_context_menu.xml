@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bible.kjv.com.MainActivity" >
+    <item android:id="@+id/item_reset" android:enabled="true" android:visible="true" 
+        android:title="@string/reset_last_read"></item>
+
+</menu>
