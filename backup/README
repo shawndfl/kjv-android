@@ -1,6 +1,27 @@
-adb backup -f data.ab -noapk bible.kjv.com
-dd if=data.ab bs=1 skip=24 | openssl zlib -d | tar -xvf -
+#
+# Run full back
+#
 
-sqlite3    #command line
-sqliteman  #gui for sqlite
+# Connect device to back up
+# enable developer mode
+adb start-server
 
+# Give permissions to back up on the phone
+adb backup -apk -obb -f full.ab bible.kjv.com
+
+# Accept back up on phone
+
+# Connect other phone
+adb restore full.ab
+
+# If the above does not work you will need to force in apk to get installed then run restore
+dd if=full.ab bs=24 skip=1|openssl zlib -d > full.tar
+tar xvf full.tar
+cd apps/bible.kjv.com/a
+adb install -t base.apk
+
+# now get a new backup that does not have the apk in it
+adb backup -apk -obb -f full.ab bible.kjv.com
+
+# Now try restore again
+adb restore full.ab
